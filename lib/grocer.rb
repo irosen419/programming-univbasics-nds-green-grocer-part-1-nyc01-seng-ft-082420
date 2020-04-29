@@ -17,6 +17,8 @@ def find_item_by_name_in_collection(name, collection)
   end
 end
 
+
+#Counts the number of each item in the cart, consolidating to a list of unique items and their counts.
 def consolidate_cart(cart)
   unique_cart = []
   
